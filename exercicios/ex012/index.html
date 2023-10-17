@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Esse videos está hospedado no meu próprio servidor!</p>
+
+    <video width="600" poster="imagens/gato-chapado.jpg" controls>
+        <source src="midia/gato-chapado.mp4" type="video/mp4">
+        <source src="midia/gato-chapado.m4v" type="video/mp4">
+        <source src="midia/gato-chapado.webm" type="video/webm">
+        <source src="midia/gato-chapado.ogv" type="video/ogg">
+        <p>Seu navegador não é compativel com videos</p>
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=OnZY6IclkMv_jfTP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/7636697?h=ad4069f09e&portrait=0" width="600" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
