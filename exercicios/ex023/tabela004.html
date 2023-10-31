@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            max-width: 450px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Streamer</td>
+        </tr>
+
+        <tr>
+            <td>Alan</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Físico</td>
+        </tr>
+
+        <tr>
+            <td>Amanda</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Neeko</td>
+            <td>F</td>
+            <td>?</td>
+            <td>Caçadora de Demonios</td>
+        </tr>
+
+        <tr>
+            <td>Brok</td>
+            <td>M</td>
+            <td>102</td>
+            <td>Explorador</td>
+        </tr>
+
+    </table>
+</body>
+</html>
