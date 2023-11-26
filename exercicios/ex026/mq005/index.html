@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testanto Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -30,5 +34,15 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione distinctio eum atque quos eligendi quae nostrum nisi, explicabo ex maxime totam impedit. Repellat id necessitatibus officia architecto nisi? Cum, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem dolor provident pariatur nobis temporibus quis excepturi, magni delectus eaque eum hic impedit error fugiat quae voluptates? Ex, ea veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. In eos nemo, officiis cumque quo quidem enim ex voluptates odit quos iste amet temporibus, unde ea ratione earum, recusandae quasi. Veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magnam architecto aspernatur esse sit totam velit cupiditate fugit voluptatum! Assumenda, asperiores ut? Nulla nihil adipisci, quo eligendi fugiat ipsam sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati distinctio temporibus, incidunt inventore vitae a rerum dolorem molestias magni, repellendus explicabo, eos eum architecto illum perferendis? Consectetur nostrum aspernatur sint!</p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                display.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

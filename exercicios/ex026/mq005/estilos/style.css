@@ -1,61 +1,85 @@
 @charset "UTF-8";
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24}
+
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0px;
+   margin: 0px;
 }
 
-body, html {
-    background-color: lightgrey;
+body,
+html {
+   background-color: lightgrey;
 }
 
 header {
-    background-color: gray;
+   background-color: gray;
 }
 
- header > h1{
-    padding: 10px;
-    text-align: center;
- }
+header>h1 {
+   padding: 10px;
+   text-align: center;
+}
 
- menu{
-    display: block;
- }
+#burguer {
+   background-color: rgb(65, 65, 65);
+   width: 100vw;
+   color: white;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+   padding-bottom: 10px;
+}
 
- menu > ul{
-    list-style-type: none;
- }
+#burguer:hover {
+   background-color: white;
+   color: black;
+}
 
- menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    text-align: center;
-    border-top: 2px solid grey;
- }
+menu {
+   display: none;
+}
 
- menu > ul > li > a:hover {
-    background-color: gray;
- }
+menu>ul {
+   list-style-type: none;
+}
 
- main {
-    width: 90vw;
-    background-color: white;
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
- }
+menu>ul>li>a {
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   background-color: rgb(87, 87, 87);
+   color: white;
+   text-align: center;
+   border-top: 2px solid grey;
+}
 
- article > h2 {
-    padding-bottom: 20px ;
- }
+menu>ul>li>a:hover {
+   background-color: gray;
+}
 
- article > p {
-    text-align: justify;
-    margin-bottom: 20px;
-    text-indent: 20px;
- }
+main {
+   width: 90vw;
+   background-color: white;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+
+article>h2 {
+   padding-bottom: 20px;
+}
+
+article>p {
+   text-align: justify;
+   margin-bottom: 20px;
+   text-indent: 20px;
+}
